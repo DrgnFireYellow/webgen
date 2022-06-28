@@ -1,0 +1,4 @@
+#! /usr/bin/env zsh
+echo Installing...
+echo alias webgen=\"python3 $(dirname $(realpath $0))/webgen/cli.py\" >> ~/.zshrc
+echo done.
