@@ -16,7 +16,6 @@ def new(dir: str):
     Creates a new webgen website.
     """
     os.makedirs(f"{dir}/site")
-    os.makedirs(f"{dir}/build")
     with open(f"{dir}/config.yaml", "x") as f:
         f.write("""
 bg: white
